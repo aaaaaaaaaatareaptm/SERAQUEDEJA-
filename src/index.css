@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #0a0e27;
+  --navy-light: #131838;
+  --navy-deep: #060919;
+  --gold: #f5b700;
+  --gold-light: #ffd23f;
+  --gold-dim: #c09100;
+  --red: #e63946;
+  --red-light: #ff6b7a;
+  --red-dim: #a02838;
+  --white: #ffffff;
+  --off-white: #f0f2ff;
+  --muted: #6b7299;
+  --panel: rgba(19, 24, 56, 0.85);
+  --panel-border: rgba(245, 183, 0, 0.25);
+  --glow-gold: 0 0 20px rgba(245, 183, 0, 0.4);
+  --glow-red: 0 0 20px rgba(230, 57, 70, 0.4);
+  --glow-blue: 0 0 20px rgba(76, 201, 240, 0.4);
+  --glow-orange: 0 0 20px rgba(244, 162, 97, 0.4);
+
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--white);
+  background: var(--navy-deep);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--navy-deep);
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  letter-spacing: 2px;
+}
